@@ -47,9 +47,7 @@ Follow these steps to get the project up and running:
 ## Available Scripts 📜
 
 - `npm run dev`: Starts the development server 🚀
-- `npm run build`: Builds the app for production 🔧
-- `npm run lint`: Runs ESLint 🧹
-- `npm run preview`: Previews the production build 👀
+
 
 ## Environment Variables 🔑
 
