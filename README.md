@@ -76,23 +76,3 @@ Feel free to fork this project and submit pull requests. If you find bugs or hav
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-### New Emojis Added:
-- 🌟 for the main title (sentiment analysis app)
-- ✨ for features
-- 🤖 for the Hugging Face BERT model
-- 📊 for sentiment visualization
-- ⚠️ for error handling
-- 💻📱 for responsive design
-- 🚀 for usage and server startup
-- 🧠 for Hugging Face Inference API
-- ⚛️ for React
-- ⚡ for Vite
-- 🌿 for Tailwind CSS
-- 📜 for available scripts and environment variables
-- 💀 for very negative sentiment
-- ☹️ for negative sentiment
-- 🤔 for neutral sentiment
-- 😀 for positive sentiment
-- 🎉 for very positive sentiment
-- 🤝 for contributing section
-- 📜 for the license section
