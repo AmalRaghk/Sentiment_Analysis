@@ -55,11 +55,11 @@ function App() {
     const stars = parseInt(rating.charAt(0));
     
     switch(stars) {
-      case 1: return "😢"; // Very negative/sad
-      case 2: return "😕"; // Somewhat negative
-      case 3: return "😐"; // Neutral
-      case 4: return "🙂"; // Positive
-      case 5: return "😄"; // Very positive
+      case 1: return "‼️"; // Very negative/sad
+      case 2: return "❗"; // Somewhat negative
+      case 3: return "✌️"; // Neutral
+      case 4: return "✔️"; // Positive
+      case 5: return "✅"; // Very positive
       default: return "❓"; // Unknown
     }
   };
@@ -123,25 +123,25 @@ function App() {
             <div className="mt-6 pt-4 border-t border-gray-200">
               <p className="text-sm text-gray-600 mb-2">Sentiment Rating Scale:</p>
               <div className="flex justify-between">
-                <div className="flex flex-col items-center">
-                  <span className="text-xl">😢</span>
-                  <span className="text-xs mt-1">Worst</span>
+                <div className="flex flex-col items-center m-1">
+                  <span className="text-xl">‼️</span>
+                  <span className="text-xs mt-1">Very negative</span>
                 </div>
-                <div className="flex flex-col items-center">
-                  <span className="text-xl">😕</span>
-                  <span className="text-xs mt-1">Bad</span>
+                <div className="flex flex-col items-center m-1">
+                  <span className="text-xl">❗</span>
+                  <span className="text-xs mt-1">Negative</span>
                 </div>
-                <div className="flex flex-col items-center">
-                  <span className="text-xl">😐</span>
+                <div className="flex flex-col items-center m-1">
+                  <span className="text-xl">✌️</span>
                   <span className="text-xs mt-1">Normal</span>
                 </div>
-                <div className="flex flex-col items-center">
-                  <span className="text-xl">🙂</span>
-                  <span className="text-xs mt-1">Good</span>
+                <div className="flex flex-col items-center m-1">
+                  <span className="text-xl">✔️</span>
+                  <span className="text-xs mt-1">Positive</span>
                 </div>
-                <div className="flex flex-col items-center">
-                  <span className="text-xl">😄</span>
-                  <span className="text-xs mt-1">Best</span>
+                <div className="flex flex-col items-center m-1">
+                  <span className="text-xl">✅</span>
+                  <span className="text-xs mt-1">Very Positive</span>
                 </div>
               </div>
             </div>
